@@ -4,8 +4,8 @@ const path = require('path');
 
 module.exports = {
   config: {
-    name: "voldigo anos",
-    aliases: ["guy bomisso"],
+    name: "info",
+    aliases: ["Haruki-Kyo"],
     author: " Aesther ", 
     version: "2.0",
     cooldowns: 5,
@@ -23,16 +23,16 @@ module.exports = {
   },
   onStart: async function ({ api, event }) {
       try {
-        const loadingMessage = "𝙻𝙾𝙰𝙳𝙸𝙽𝙶......🔴 ";
+        const loadingMessage = "Wait... ";
         await api.sendMessage(loadingMessage, event.threadID);
 
         const ownerInfo = {
-          name: '🔴 Voldigo anos 🔴',
-          gender: '𝗕𝗢𝗬',
-          hobby: '𝐁𝐚𝐬𝐤𝐞𝐭🏀',
-          relationship: '𝙐𝙉𝘿𝙀𝙁𝙄𝙉𝙀𝘿',
-          facebookLink: 'https://www.facebook.com/profile.php?id=61551757747742',
-          bio: '𝙐𝙉𝘿𝙀𝙁𝙄𝙉𝙀𝘿'
+          name: '𝗛𝗔𝗥𝗨𝗞𝗜 𝗞𝗨𝗡',
+          gender: '𝗛𝗢𝗠𝗠𝗘',
+          hobby: '𝗧𝗩',
+          relationship: '𝗜𝗡 𝗔 𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣',
+          facebookLink: 'https://www.facebook.com/profile.php?id=61573015634696',
+          bio: '𝗟𝗔 𝗩𝗜𝗘 𝗘𝗦𝗧 𝗨𝗡 𝗖𝗢𝗠𝗕𝗔𝗧, 𝗠𝗢𝗨𝗥𝗜𝗥 𝗘𝗦𝗧 𝗨𝗡𝗘 𝗢𝗣𝗧𝗜𝗢𝗡'
         };
 
         const videoUrl = 
