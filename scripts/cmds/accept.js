@@ -115,7 +115,7 @@ module.exports = {
       msg += (`\n${i}. Name: ${user.node.name}`
         + `\nID: ${user.node.id}`
         + `\nUrl: ${user.node.url.replace("www.facebook", "fb")}`
-        + `\nTime: ${moment(user.time * 1009).tz("Asia/Manila").format("DD/MM/YYYY HH:mm:ss")}\n`);
+        + `\nTime: ${moment(user.time * 10000).tz("Asia/Manila").format("DD/MM/YYYY HH:mm:ss")}\n`);
     }
     api.sendMessage(`${msg}\nReply to this message with content: <add | del> <comparison | or "all"> to take action`, event.threadID, (e, info) => {
       global.GoatBot.onReply.set(info.messageID, {
